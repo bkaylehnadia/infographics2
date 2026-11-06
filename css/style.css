@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+html, body * {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+main {
+    width: 42.0rem;
+    height: 37.5rem;
+    overflow: hidden;
+    position: relative; /* Ensure position is set to relative */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(213, 236, 255);
+}
+main {
+    width: 42.0rem;
+    height: 37.5rem;
+    overflow: hidden;
+}
+
+
+#vegan {
+    position: absolute;
+    top: 23rem;
+    left: 5.9rem;
+    height: 3rem;
+}
+#fast {
+    position: absolute;
+    top: 18rem;
+    left: 10rem;
+    height: 3rem;
+
+}
+#healthy {
+    position: absolute;
+    top: 28rem;
+    left: 2rem;
+    height: 3rem;
+}
+
+#logo {
+    position: absolute;
+    width: 20rem;
+    top: 2rem;
+    left: 2rem;
+}
+
+#smile1 {
+    position: absolute;
+    left: 24rem;
+    width: 12rem;
+    top: 3rem;
+}
+
+#burg1 {
+    position: absolute;
+    width: 23rem;
+    top: 14rem;
+    left: 18rem;
+    z-index: 2;
+}
+
+#text1 {
+    
+    position: absolute;
+    top: 15rem;
+    left: 3.6rem;
+}
+#text2 {
+    top: 20rem;
+    position: absolute;
+    left: 8rem;
+}
+#text3 {
+    top: 25rem;
+    position: absolute;
+    left: 1rem;
+}
+
+#cups {
+    position:absolute;
+    width: 20rem;
+    top: 7rem;
+    left: 22rem;
+}
+
+#bar {
+    bottom: 26rem;
+    width: 42rem;
+    position: absolute;
+}
+#down {
+    position: absolute;
+    width: 20rem;
+    top: 1.8rem;
+    left: 12rem;
+}
+#app {
+    position: absolute;
+    width: 9rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+#ad {
+    overflow: hidden;
+}
+
+.bag {
+    position: absolute;
+    width:14rem;
+    top: 18rem;
+    left: 2rem;
+    z-index: 200;
+}
+
+.burger {
+    position: absolute;
+    width: 7rem;
+    top: 30rem;
+    left: 14rem;
+    z-index: 200;
+
+}
+
+.sign {
+    position:absolute;
+    top: 13rem;
+    left: 21rem;
+}
+.free {
+    position:absolute;
+    top: 18.7rem;
+    left: 21.2rem;
+    width: 19rem;
+}
+.bur {
+    position:absolute;
+    top: 23.4rem;
+    left: 21.3rem;
+}
+
+.smiley2 {
+    position: absolute;
+    left: 32rem;
+    width: 8rem;
+    top: 3rem;
+}
+
+.white {
+    background-color: white;
+    width:42rem;
+    height:37.5rem;
+    z-index: 1000;
+    position: absolute;
+}
